@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - DB_HOST=postgres-server
+      - DB_HOST=local-postgres
       - DB_NAME=mydb
       - DB_USER=admin
       - DB_PASS=adminpass
