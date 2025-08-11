@@ -4,7 +4,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy application code
-COPY app_1.py /app/app.py
+COPY app_1_modified.py /app/app.py
 
 # Install dependencies
 RUN pip install flask psycopg2-binary
